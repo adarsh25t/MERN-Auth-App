@@ -37,7 +37,7 @@ const Username = () => {
                     <AccountCircleIcon className='avatar'/>
                     <input {...formik.getFieldProps('username')} type="text" placeholder='username...' />
                     <Button variant='contained' type='submit'>Let's Go</Button>
-                    <p>Not a member <Link>Register Now</Link></p>
+                    <p className='opt-text'>Not a member <Link to={'/register'}>Register Now</Link></p>
                 </form>
             </div>
         </div>

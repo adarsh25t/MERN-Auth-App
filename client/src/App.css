@@ -60,3 +60,21 @@ a{
 .home-page-card a {
   color: crimson;
 }
+
+
+.opt-text{
+  font-size: 12px;
+}
+.opt-recover {
+  color: crimson !important;
+}
+.reset-text {
+  font-size: 30px !important;
+}
+
+.file-lable-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+}
