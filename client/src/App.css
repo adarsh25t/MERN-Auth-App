@@ -1,39 +1,62 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Rubik', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.home-page {
+  height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.home-page-card {
+  width: 350px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 30px;
+  border-radius: 25px;
+  padding-bottom: 100px;
+  background-color: aliceblue;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.home-page-card h3 {
+  font-size: 40px;
 }
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.home-page-card p {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(39, 38, 38);
+}
+.home-page-card .avatar {
+  text-align: center;
+  font-size: 104px;
+  color: rgb(0, 86, 184);
+}
+.home-page-card input {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.home-page-card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}
+.home-page-card button:hover {
+  background-color: crimson;
+}
+.home-page-card a {
+  color: crimson;
 }
